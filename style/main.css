@@ -7,5 +7,27 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background-color: orangered;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+body header .menu ul {
+  display: flex;
+  list-style-type: none;
+}
+body header .menu ul li {
+  margin-right: 2rem;
+}
+body header .menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+body header .menu ul li .active {
+  font-weight: bold;
+  color: #af63ff;
 }
