@@ -98,3 +98,24 @@ body header .menu ul li .active {
   font-weight: 800;
   margin: 0 10px
 }
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.625rem;
+  padding: 3.375rem 0;
+  text-align: center;
+}
+
+.about h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.about p {
+  font-family: "Poppins", sans-serif;
+  line-height: 250%;
+  width: 65%;
+}
