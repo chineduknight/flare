@@ -119,3 +119,34 @@ body header .menu ul li .active {
   line-height: 250%;
   width: 65%;
 }
+
+hr {
+  background: #6369FF;
+  color: #6369FF;
+}
+
+.featured {
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  text-align: center;
+}
+
+.category-image {
+  width: 22.75rem;
+  height: 22.75rem;
+  background-color: #D5D3D8;
+}
+
+.cat-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 3rem;
+}
+
+.category{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
