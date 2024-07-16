@@ -121,20 +121,35 @@ body header .menu ul li .active {
 }
 
 hr {
-  background: #6369FF;
-  color: #6369FF;
+  height: 5px; 
+  border: 0px solid #CEC2F4; 
+  border-top-width: 1px;
 }
 
 .featured {
   display: flex;
   flex-direction: column;
   text-align: center;
+  padding-bottom: 11rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.featured h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 4.625rem 0;
+}
+
+.featured hr {
+  margin-top: -64px;
 }
 
 .category-image img {
   width: 22.75rem;
   height: 22.75rem;
   object-fit: cover;
+  border-radius: 25px;
 }
 
 .category:nth-child(3) img {
@@ -152,4 +167,15 @@ hr {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
+
+.category span {
+  padding: 1.25rem 3.5rem;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  border-radius: 30px;
+  position: absolute;
+  bottom: -30px;
+}
+
