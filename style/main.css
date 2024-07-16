@@ -127,15 +127,18 @@ hr {
 
 .featured {
   display: flex;
-  /* align-items: center; */
   flex-direction: column;
   text-align: center;
 }
 
-.category-image {
+.category-image img {
   width: 22.75rem;
   height: 22.75rem;
-  background-color: #D5D3D8;
+  object-fit: cover;
+}
+
+.category:nth-child(3) img {
+  object-position: center top;
 }
 
 .cat-section {
