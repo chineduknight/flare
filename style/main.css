@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
   padding: 0;
@@ -35,7 +35,7 @@ body header .menu ul li .active {
 
 .landing {
   margin: 4rem 1.5rem;
-  border: 1px solid #CEC2F4;
+  border: 1px solid #cec2f4;
 }
 
 .box {
@@ -51,7 +51,7 @@ body header .menu ul li .active {
 }
 
 .left h1 {
-  color: #6369FF;
+  color: #6369ff;
   font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 900;
@@ -59,7 +59,7 @@ body header .menu ul li .active {
 
 .left button {
   width: 30%;
-  background: #AF64FF;
+  background: #af64ff;
   border: none;
   color: #fff;
   border-radius: 25px;
@@ -90,10 +90,10 @@ body header .menu ul li .active {
 }
 
 .promo span span {
-  color: #6369FF;
+  color: #6369ff;
   font-size: 3.75rem;
   font-weight: 800;
-  margin: 0 10px
+  margin: 0 10px;
 }
 
 .about {
@@ -116,8 +116,8 @@ body header .menu ul li .active {
 }
 
 hr {
-  height: 5px; 
-  border: 0px solid #CEC2F4; 
+  height: 5px;
+  border: 0px solid #cec2f4;
   border-top-width: 1px;
 }
 
@@ -156,7 +156,7 @@ hr {
   margin: 0 3rem;
 }
 
-.category{
+.category {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -166,7 +166,8 @@ hr {
 .category span {
   padding: 1.25rem 3.5rem;
   background-color: #fff;
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   border-radius: 30px;
   position: absolute;
   bottom: -30px;
@@ -194,7 +195,7 @@ hr {
 }
 
 .best-sellers h2 {
-  color: #5906B7;
+  color: #5906b7;
   font-size: 40px;
   font-weight: 600;
   padding-top: 6.25rem;
@@ -224,14 +225,12 @@ hr {
   font-size: 18px;
   text-decoration: none;
   display: inline-block;
-  padding-bottom:2px;
+  padding-bottom: 2px;
   background-image: linear-gradient(#000 0 0);
   background-position: 0 100%;
   background-size: 0% 2px;
   background-repeat: no-repeat;
-  transition:
-    background-size 0.3s,
-    background-position 0s 0.3s;
+  transition: background-size 0.3s, background-position 0s 0.3s;
 }
 
 .category-1 a:hover {
@@ -251,7 +250,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
-  background-color: #CEC2F4;
+  background-color: #cec2f4;
   padding: 3rem;
   padding-right: 6rem;
 }
@@ -271,7 +270,7 @@ hr {
 .card form input {
   padding: 1.5rem;
   font-size: 18px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border: none;
   width: 60%;
   /* border-bottom: 1px solid #21818D; */
@@ -281,12 +280,12 @@ hr {
   padding: 1.5rem 2.6rem;
   font-size: 18px;
   color: #fff;
-  background-color: #AF64FF;
+  background-color: #af64ff;
   border: none;
 }
 
 .footer {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
   padding: 2.5rem 3rem;
 }
 
@@ -363,7 +362,7 @@ hr {
   margin-top: 5px;
 }
 
-.follow-us span a img{
+.follow-us span a img {
   width: 32px;
 }
 
@@ -377,7 +376,6 @@ hr {
   width: 40%;
 }
 
-
 /* Code for marquee on all pages */
 .marquee-container {
   position: fixed;
@@ -389,7 +387,7 @@ hr {
   height: 40px;
   overflow: hidden;
   position: relative;
-  background: #AF64FF;
+  background: #af64ff;
   color: #fff;
 }
 
@@ -416,35 +414,34 @@ hr {
 
 @-moz-keyframes scroll-left {
   0% {
-      -moz-transform: translateX(100%);
+    -moz-transform: translateX(100%);
   }
   100% {
-      -moz-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
   }
 }
 
 @-webkit-keyframes scroll-left {
   0% {
-      -webkit-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
   }
   100% {
-      -webkit-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
   }
 }
 
 @keyframes scroll-left {
   0% {
-      -moz-transform: translateX(100%);
-      -webkit-transform: translateX(100%);
-      transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
   }
   100% {
-      -moz-transform: translateX(-100%);
-      -webkit-transform: translateX(-100%);
-      transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
   }
 }
-
 
 .trending {
   text-align: center;
@@ -468,7 +465,7 @@ hr {
 }
 
 .best-sellers h2 {
-  color: #5906B7;
+  color: #5906b7;
   font-size: 40px;
   font-weight: 600;
   padding-top: 6.25rem;
@@ -498,14 +495,12 @@ hr {
   font-size: 18px;
   text-decoration: none;
   display: inline-block;
-  padding-bottom:2px;
+  padding-bottom: 2px;
   background-image: linear-gradient(#000 0 0);
   background-position: 0 100%;
   background-size: 0% 2px;
   background-repeat: no-repeat;
-  transition:
-    background-size 0.3s,
-    background-position 0s 0.3s;
+  transition: background-size 0.3s, background-position 0s 0.3s;
 }
 
 .category-1 a:hover {
@@ -525,7 +520,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
-  background-color: #CEC2F4;
+  background-color: #cec2f4;
   padding: 3rem;
   padding-right: 6rem;
 }
@@ -545,7 +540,7 @@ hr {
 .card form input {
   padding: 1.5rem;
   font-size: 18px;
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   border: none;
   width: 60%;
   /* border-bottom: 1px solid #21818D; */
@@ -555,6 +550,6 @@ hr {
   padding: 1.5rem 2.6rem;
   font-size: 18px;
   color: #fff;
-  background-color: #AF64FF;
+  background-color: #af64ff;
   border: none;
 }
