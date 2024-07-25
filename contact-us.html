@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/main.css" />
-    <link rel="stylesheet" href="./style/shop-page.css" />
+    <link rel="stylesheet" href="./style/contact.css" />
     <link rel="icon" type="image/x-icon" href="/img/flare-logo.svg" />
-    <title>Flare | Shop</title>
+    <title>Flare | Contact Us</title>
   </head>
 
   <body>
@@ -37,22 +37,79 @@
           </li>
           <li><a href="#">Collections</a></li>
           <li><a href="./shop.html">Shop</a></li>
-          <li><a href="">About Us</a></li>
+          <li><a href="./about.html">About Us</a></li>
           <li><a href="./contact-us.html" class="active">Contact Us</a></li>
         </ul>
       </div>
     </header>
 
-    <main id="page-id" class="page-class">
-      <div class="contact-holder">
-        <h1>Send us a message</h1>
-        <label for="">First Name</label>
-        <input type="text" />
-        <label for="">Last Name</label>
-        <input type="text" />
-        <label for="">Message</label>
-        <textarea type="text" />
+    <main id="contact-us">
+      <div class="contact-form-container">
+        <form class="contact-form">
+          <h2>Contact Us</h2>
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" required />
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="send-button">Send</button>
+        </form>
       </div>
     </main>
+    <footer class="footer">
+      <div class="section-1">
+        <form>
+          <p>Your number one site for buying clothes.</p>
+          <label for="">Join our newsletter</label>
+          <span class="subscribe">
+            <input type="email" placeholder="Enter your e-mail" />
+            <button type="submit">
+              <img src="img/arrow.svg" alt="Suscribe" />
+            </button>
+          </span>
+        </form>
+        <div class="contact-us">
+          <h4>Contact Us</h4>
+          <span>
+            <img src="img/phone.svg" alt="call" />
+            <a href="tel:+234123456789">+234123456789</a>
+          </span>
+          <span>
+            <img src="img/mail.svg" alt="mail" />
+            <a
+              href="mailto:customerservice@flare.com"
+              style="text-decoration-line: underline"
+              >customerservice@flare.com</a
+            >
+          </span>
+          <span>
+            <img src="img/home.svg" alt="visit" />
+            <a href="https://www.google.com/maps"
+              >196B, Awolowo Road, Ikoyi, Lagos</a
+            >
+          </span>
+        </div>
+        <div class="follow-us">
+          <h4>Follow Us</h4>
+          <span>
+            <a href="#"><img src="img/facebook.svg" alt="Facebook" /></a>
+            <a href="#"><img src="img/instagram.svg" alt="Facebook" /></a>
+            <a href="#"><img src="img/twitter.svg" alt="Facebook" /></a>
+            <a href="#"><img src="img/tiktok.svg" alt="Facebook" /></a>
+          </span>
+        </div>
+      </div>
+      <hr />
+      <div class="section-2">
+        <img src="img/footer-logo.png" alt="Logo" />
+      </div>
+    </footer>
   </body>
 </html>

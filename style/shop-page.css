@@ -6,7 +6,7 @@
   width: 100%;
   padding: 12px;
   margin-top: 12px;
-  background: #AF64FF;
+  background: #af64ff;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -64,11 +64,11 @@
   grid-gap: 20px;
 }
 #shop-page .product {
-  border: 1px solid #CEC2F4;
+  border: 1px solid #cec2f4;
   padding: 15px;
 }
 #shop-page .product:hover .product__title {
-  color: #AF64FF;
+  color: #af64ff;
 }
 #shop-page .product__image {
   width: 100%;
@@ -86,4 +86,4 @@
 }
 #shop-page .product__amount {
   margin-bottom: 4px;
-}/*# sourceMappingURL=shop-page.css.map */
+}
