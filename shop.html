@@ -1,206 +1,50 @@
+<!--  You can use this as a starter file for new pages -->
+
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style/main.css" />
     <link rel="stylesheet" href="./style/shop-page.css" />
-    <link rel="icon" type="image/x-icon" href="/img/flare-logo.svg">
+    <link rel="icon" type="image/x-icon" href="/img/flare-logo.svg" />
     <title>Flare | Shop</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="marquee-container">
-        <div class="marquee">
-            <p>
-                <span>Get 30% off your order when you buy 3 clothes or more starting July 2024.</span>
-                <span>Get 30% off your order when you buy 3 clothes or more starting July 2024.</span>
-                <span>Get 30% off your order when you buy 3 clothes or more starting July 2024.</span>
-            </p>
-        </div>
+      <div class="marquee">
+        <p>
+          <span
+            >Get 30% off your order when you buy 3 clothes or more starting July
+            2024.</span
+          >
+          <span
+            >Get 30% off your order when you buy 3 clothes or more starting July
+            2024.</span
+          >
+          <span
+            >Get 30% off your order when you buy 3 clothes or more starting July
+            2024.</span
+          >
+        </p>
+      </div>
     </div>
     <header>
-        <a href="index.html"><img src="./img/logo.png" alt="flare logo" /></a>
-        <div class="menu">
-            <ul>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li><a href="">Collections</a></li>
-                <li><a href="/shop.html" class="active">Shop</a></li>
-                <li><a href="./about.html">About Us</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
-        </div>
+      <a href="index.html"><img src="./img/logo.png" alt="flare logo" /></a>
+      <div class="menu">
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li><a href="#">Collections</a></li>
+          <li><a href="./shop.html" class="active">Shop</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="./contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
     </header>
 
-    <main id="shop-page" class="shop-page">
-        <div class="shop-page__container">
-            <div class="shop-page__sidebar">
-                <form class="form">
-                    <div class="form__item">
-                        <h2>Category</h2>
-                        <ul class="c-list">
-                            <li>Outwears</li>
-                            <li>Dresses</li>
-                            <li>Nightwears</li>
-                        </ul>
-                    </div>
-                    <div class="form__item">
-                        <h2>Filters</h2>
-                        <div class="form__item">
-                            <h3>Gender</h3>
-                            <div class="checkbox-container">
-                                <div class="input-item">
-                                    <input type="checkbox" id="male-cb" name="male" value="male">
-                                    <label for="male-cb"> Male</label><br />
-                                </div>
-
-                                <div class="input-item">
-                                    <input type="checkbox" id="female-cb" name="female" value="female">
-                                    <label for="female-cb"> Female</label><br />
-                                </div>
-
-                                <div class="input-item">
-                                    <input type="checkbox" id="kids-cb" name="kids" value="kids">
-                                    <label for="kids-cb"> Kids</label><br>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="form__item">
-                            <h3>Size</h3>
-                            <div class="checkbox-container checkbox-container--horizontal">
-                                <div class="input-item">
-                                    <input type="checkbox" id="small-cb" name="small" value="small">
-                                    <label for="small-cb">S</label>
-                                </div>
-
-                                <div class="input-item">
-                                    <input type="checkbox" id="large-cb" name="large" value="large">
-                                    <label for="large-cb"> L</label>
-                                </div>
-
-                                <div class="input-item">
-                                    <input type="checkbox" id="x-large-cb" name="x-large" value="x-large">
-                                    <label for="x-large-cb"> XL</label>
-                                </div>
-                                <div class="input-item">
-                                    <input type="checkbox" id="x-x-large-cb" name="x-x-large" value="x-x-large">
-                                    <label for="x-x-large-cb"> XXL</label>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- <div class="form__item">
-                            <h3>Price range (NGN)</h3>
-                            <p class="small">NGN 500 - NGN 1,000,000</p>
-                            <div class="input-item">
-                                <input type="range" id="price-range" name="price-range" min="500" max="1000000" />
-                            </div>
-
-                            <p>NGN <span id="price-range-value"></span></p>
-                        </div> -->
-
-                        <button type="submit" class="btn btn--primary">Apply filters</button>
-                    </div>
-                </form>
-
-            </div>
-            <div class="shop-page__shop">
-                <h1>Shop</h1>
-                <div class="products">
-                    <div class="product">
-                        <img src="https://plus.unsplash.com/premium_photo-1692441578418-88b76776791e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Men cloth" class="product__image" />
-                        <h4 class="product__title">Trendy shirt</h4>
-                        <p class="product__amount">N20,000</p>
-                        <button class="btn btn--primary">Add to cart</button>
-                    </div>
-                    <div class="product">
-                        <img src="https://plus.unsplash.com/premium_photo-1692441602133-ef60e3df7583?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1pbi1zYW1lLXNlcmllc3wxfHx8ZW58MHx8fHx8"
-                            alt="cloth" class="product__image" />
-                        <h4 class="product__title">Kusa Hat</h4>
-                        <p class="product__amount">N10,000</p>
-                        <button class="btn btn--primary">Add to cart</button>
-                    </div>
-                    <div class="product">
-                        <img src="https://images.unsplash.com/photo-1624378440847-4a64ee1a889d?q=80&w=2928&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Men cloth" class="product__image" />
-                        <h4 class="product__title">Stock blue jean</h4>
-                        <p class="product__amount">N8,000</p>
-                        <button class="btn btn--primary">Add to cart</button>
-                    </div>
-                    <div class="product">
-                        <img src=https://images.unsplash.com/photo-1624378407998-48becabd8c27?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG1lbidzJTIwY2xvdGh8ZW58MHx8MHx8fDA%3D"
-                            alt="Men cloth" class="product__image" />
-                        <h4 class="product__title">Autumn themed shirt</h4>
-                        <p class="product__amount">N45,000</p>
-                        <button class="btn btn--primary">Add to cart</button>
-                    </div>
-                    <div class="product">
-                        <img src="https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=2797&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                            alt="Men cloth" class="product__image" />
-                        <h4 class="product__title">Dark blue jeans</h4>
-                        <p class="product__amount">N23,000</p>
-                        <button class="btn btn--primary">Add to cart</button>
-                    </div>
-                    <div class="product">
-                        <img src="https://plus.unsplash.com/premium_photo-1678344777040-d86ca0e7c658?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fG1lbidzJTIwY2xvdGh8ZW58MHx8MHx8fDA%3D"
-                            alt="Men cloth" class="product__image" />
-                        <h4 class="product__title">Two piece Home-wear</h4>
-                        <p class="product__amount">N40,000</p>
-                        <button class="btn btn--primary">Add to cart</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <footer class="footer">
-        <div class="section-1">
-            <form>
-                <p>Your number one site for buying clothes.</p>
-                <label for="">Join our newsletter</label>
-                <span class="subscribe">
-                    <input type="email" placeholder="Enter your e-mail">
-                    <button type="submit"><img src="img/arrow.svg" alt="Suscribe"></button>
-                </span>
-            </form>
-            <div class="contact-us">
-                <h4>Contact Us</h4>
-                <span>
-                    <img src="img/phone.svg" alt="call">
-                    <a href="tel:+234123456789">+234123456789</a>
-                </span>
-                <span>
-                    <img src="img/mail.svg" alt="mail">
-                    <a href="mailto:customerservice@flare.com"
-                        style="text-decoration-line: underline;">customerservice@flare.com</a>
-                </span>
-                <span>
-                    <img src="img/home.svg" alt="visit">
-                    <a href="https://www.google.com/maps">196B, Awolowo Road, Ikoyi, Lagos</a>
-                </span>
-            </div>
-            <div class="follow-us">
-                <h4>Follow Us</h4>
-                <span>
-                    <a href="#"><img src="img/facebook.svg" alt="Facebook"></a>
-                    <a href="#"><img src="img/instagram.svg" alt="Facebook"></a>
-                    <a href="#"><img src="img/twitter.svg" alt="Facebook"></a>
-                    <a href="#"><img src="img/tiktok.svg" alt="Facebook"></a>
-                </span>
-            </div>
-        </div>
-        <hr>
-        <div class="section-2">
-            <img src="img/footer-logo.png" alt="Logo">
-        </div>
-    </footer>
-
-    <!-- <script src="js/shop.js"></script> -->
-</body>
-
+    <main id="contact-us" class="page-class"></main>
+  </body>
 </html>
