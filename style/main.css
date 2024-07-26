@@ -64,6 +64,7 @@ body header .menu ul li .active {
   color: #fff;
   border-radius: 25px;
   padding: 1.125rem 0;
+  margin-bottom: 1rem;
   font-size: medium;
   font-weight: 700;
   margin-top: 1.75rem;
@@ -262,7 +263,6 @@ hr {
 
 .card form {
   display: flex;
-  /* justify-content: center; */
   gap: 1rem;
   width: 120%;
 }
@@ -273,7 +273,6 @@ hr {
   background-color: #eeeeee;
   border: none;
   width: 60%;
-  /* border-bottom: 1px solid #21818D; */
 }
 
 .card form button {
@@ -482,6 +481,10 @@ hr {
   row-gap: 3rem;
 }
 
+.best-sellers h2 {
+  font-size: 32px;
+}
+
 .category-1 {
   display: flex;
   flex-direction: column;
@@ -532,7 +535,6 @@ hr {
 
 .card form {
   display: flex;
-  /* justify-content: center; */
   gap: 1rem;
   width: 120%;
 }
@@ -543,7 +545,6 @@ hr {
   background-color: #eeeeee;
   border: none;
   width: 60%;
-  /* border-bottom: 1px solid #21818D; */
 }
 
 .card form button {
@@ -552,4 +553,65 @@ hr {
   color: #fff;
   background-color: #af64ff;
   border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .right {
+    display: none;
+  }
+  .cat-section {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .best-sellers .cat-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem;
+    flex-wrap: no-wrap;
+  }
+
+  header a img {
+    width: 90px;
+  }
+
+  body header .menu ul li {
+    margin-right: 0.75rem;
+  }
+
+  body header .menu ul li a {
+    font-size: 14px;
+  }
+
+  .box {
+    padding: 0 ;
+  }
+
+  .left {
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-1 {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .contact-us {
+    margin-left: 0;
+  }
+
+  .follow-us span {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .card form {
+    flex-direction: column;
+  }
+
+  .card form input {
+    width: 100%;
+  }
 }
