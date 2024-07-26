@@ -1,0 +1,62 @@
+#events-page .events {
+  padding: 80px 16px;
+}
+#events-page .events .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#events-page .events__title {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 32px;
+}
+#events-page .events__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 16px;
+}
+#events-page .events .event {
+  padding: 20px 10px;
+  border: 1px solid #cec2f4;
+  display: flex;
+}
+#events-page .events .event:hover .event__image img {
+  transform: scale(1);
+}
+#events-page .events .event__image {
+  margin-right: 16px;
+  width: 200px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+#events-page .events .event__image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+#events-page .events .event__name {
+  line-height: 100%;
+  font-weight: 600;
+}
+#events-page .events .event__date-time {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+#events-page .events .event__date-time .divider {
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  background: #000;
+}
+#events-page .events .event__date {
+  color: #af64ff;
+}
+#events-page .events .event__description {
+  margin-top: 12px;
+  color: #828282;
+}/*# sourceMappingURL=events.css.map */
